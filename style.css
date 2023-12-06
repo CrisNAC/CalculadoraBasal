@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body{
+    background: #f6f5f7; 
     font-family: 'Montserrat', sans-serif;
+    color: #3E363F;
 }
 
 #contenedor{
@@ -51,7 +53,7 @@ input {
 }
 
 button {
-  font-size: 15px;
+    font-size: 15px;
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
@@ -61,6 +63,7 @@ button {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	transition: transform 20ms ease-in;
+    margin: 10px;
 }
 
 button:active {
